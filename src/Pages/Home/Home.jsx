@@ -1,9 +1,12 @@
 import React from 'react';
+import Faq from '../../Components/FAQ/Faq';
+import FooterTop from '../../Components/FooterTop/FooterTop';
 
 const Home = () => {
     return (
         <div>
-            THis is home page
+            <Faq></Faq>
+            <FooterTop></FooterTop>
         </div>
     );
 };
