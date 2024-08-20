@@ -5,8 +5,10 @@ const Testimonial = () => {
   return (
     <div className="md:flex gap-8 mt-10 pb-10">
       <div className="w-[392px] px-6">
-        <p>66</p>
-        <p className="text-white font-normal text-[16px] leading-[24px]">
+        <p className="w-[56px] h-[56px] rounded-full bg-[#3D544D] text-center p-4">
+          66
+        </p>
+        <p className="text-white font-normal text-[16px] leading-[24px] pt-8">
           Great session! Dani was super helpful. She shared some practical
           advice on how can lorem ip we go about refining our service offerings.
         </p>
@@ -23,7 +25,10 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="w-[392px] px-6">
-        <p className="text-white font-normal text-[16px] leading-[24px]">
+        <p className="w-[56px] h-[56px] rounded-full bg-[#3D544D] text-center p-4">
+          66
+        </p>
+        <p className="text-white font-normal text-[16px] leading-[24px] pt-8">
           Great session! Dani was super helpful. She shared some practical
           advice on how can lorem ip we go about refining our service offerings.
         </p>
@@ -40,7 +45,10 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="w-[392px] px-6">
-        <p className="text-white font-normal text-[16px] leading-[24px]">
+        <p className="w-[56px] h-[56px] rounded-full bg-[#3D544D] text-center p-4">
+          66
+        </p>
+        <p className="text-white font-normal text-[16px] leading-[24px] pt-8">
           Great session! Dani was super helpful. She shared some practical
           advice on how can lorem ip we go about refining our service offerings.
         </p>
