@@ -7,3 +7,12 @@ html, body{
     color: #fff;
     font-family: "M PLUS 1", sans-serif;
 }
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.main-container{
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+}
