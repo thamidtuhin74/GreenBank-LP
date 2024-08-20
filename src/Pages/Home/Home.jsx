@@ -1,11 +1,13 @@
-import React from 'react';
+import Testimonial from "../../Components/Testimonial/Testimonial";
+import WeOffer from "../../Components/WeOffer/WeOffer";
 
 const Home = () => {
-    return (
-        <div>
-            THis is home page
-        </div>
-    );
+  return (
+    <div>
+      <WeOffer></WeOffer>
+      <Testimonial></Testimonial>
+    </div>
+  );
 };
 
 export default Home;
