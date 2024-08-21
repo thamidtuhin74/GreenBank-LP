@@ -9,7 +9,7 @@ import partner6 from "../../../assets/img/partner6.png";
 const Category = () => {
   return (
     <Container>
-      <div className="flex flex-col md:flex-row justify-center items-center lg:flex-row gap-8 md:gap-24 lg:gap-24 mb-32">
+      <div className="flex flex-col md:flex-row justify-between items-center lg:flex-row gap-8 md:gap-8 lg:gap-8 mb-32">
         <img className="" src={partner1} alt="partner" />
         <img src={partner2} alt="partner" />
         <img src={partner3} alt="partner" />

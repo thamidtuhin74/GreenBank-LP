@@ -63,31 +63,31 @@ const Banner = () => {
           <span className="absolute z-10 badge badge-primary badge-lg border-none bg-[#2BB32A] w-[220px] h-[220px] md:w-[492px] lg:w-[492px] md:h-[492px] lg:h-[492px] rounded-[100%] -top-24 md:-top-0 lg:-top-0 -right-11 md:-right-36 lg:-right-36"></span>
         </div>
         <span className="absolute blur-[200px] bg-[#2ab32acc] shadow-lg border-none shadow-[#e1ece1]  badge badge-lg w-[220px] h-[220px] md:w-[420px] lg:w-[420px] md:h-[350px] lg:h-[350px] rounded-[100%] -top-[40%] right-[27%]"></span>
-          <img
-            className="absolute border-none badge badge-lg bg-transparent w-[5%] h-[8%] top-[190px] right-[480px]"
-            src={star}
-            alt="star"
-          />
-          <img
-            className="absolute border-none badge badge-lg bg-transparent w-[5%] h-[8%] bottom-6 left-[650px]"
-            src={star}
-            alt="star"
-          />
-          <img
-            className="absolute border-none badge badge-lg bg-transparent w-[4%] h-[5%] -bottom-28 right-[420px]"
-            src={star}
-            alt="star"
-          />
-          <img
-            className="absolute border-none badge badge-lg bg-transparent w-[3%] h-[3%] -bottom-[140px] left-[250px]"
-            src={star}
-            alt="star"
-          />
-          <img
-            className="absolute border-none badge badge-lg bg-transparent w-[3%] h-[3%] -bottom-[530px] left-[480px]"
-            src={star}
-            alt="star"
-          />
+        <img
+          className="absolute border-none badge badge-lg bg-transparent w-[7%] h-[7%] top-[7%] right-[28%]"
+          src={star}
+          alt="star"
+        />
+        <img
+          className="absolute border-none badge badge-lg bg-transparent w-[7%] h-[7%] top-[88%] left-[38%]"
+          src={star}
+          alt="star"
+        />
+        <img
+          className="absolute border-none badge badge-lg bg-transparent w-[4%] h-[4%] -bottom-[7%] right-[18%]"
+          src={star}
+          alt="star"
+        />
+        <img
+          className="absolute border-none badge badge-lg bg-transparent w-[3%] h-[3%] -bottom-[23%] left-[3%]"
+          src={star}
+          alt="star"
+        />
+        <img
+          className="absolute border-none badge badge-lg bg-transparent w-[3%] h-[3%] -bottom-[86%] left-[25%]"
+          src={star}
+          alt="star"
+        />
       </div>
     </Container>
   );
