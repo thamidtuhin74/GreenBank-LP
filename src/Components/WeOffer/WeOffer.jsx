@@ -5,7 +5,7 @@ import Container from "../UI/Container/Container";
 const WeOffer = () => {
   return (
     <Container>
-      <div className="px-3">
+      <div className="max-sm:px-3">
         <h1 className="text-white text-center font-bold text-[25px] md:text-[40px] leading-[57.92px]">
           What do we offer?
         </h1>
