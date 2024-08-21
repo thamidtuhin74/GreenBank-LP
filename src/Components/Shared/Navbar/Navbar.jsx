@@ -2,10 +2,10 @@
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import "./NavBar.css";
+import "./Navbar.css";
 import { FaSearch } from "react-icons/fa";
 import Container from "../../UI/Container/Container";
-import Logo from "../../../assets/img/logo.png"
+import Logo from "../../../assets/img/logo.png";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -15,20 +15,15 @@ const Navbar = () => {
   };
 
   const navMenu = (
-    <ul className=" md:flex gap-6 lg:gap-[27px] text-base md:text-lg lg:text-[21px] font-medium items-center">
-      <li className="py-2 md:py-0">
+    <ul className=" md:flex gap-4 md:gap-[27px] lg:gap-[27px] text-base md:text-lg lg:text-[21px] font-medium items-center">
+      <li className="font-medium text-[16px] leading-[23.17px]">
         <Link to="home" smooth={true} duration={1000} onClick={handleNavClick}>
-          Home
+          Why Us
         </Link>
       </li>
-      <li className="py-2 md:py-0">
-        <Link to="about-us" smooth={true} duration={1000} onClick={handleNavClick}>
-          About Us
-        </Link>
-      </li>
-      <li className="py-2 md:py-0">
+      <li className="font-medium text-[16px] leading-[23.17px]">
         <Link
-          to="services"
+          to="about-us"
           smooth={true}
           duration={1000}
           onClick={handleNavClick}
@@ -36,52 +31,41 @@ const Navbar = () => {
           Services
         </Link>
       </li>
-      <li className="py-2 md:py-0">
+      <li className="font-medium text-[16px] leading-[23.17px]">
+        <Link
+          to="services"
+          smooth={true}
+          duration={1000}
+          onClick={handleNavClick}
+        >
+          Our Process
+        </Link>
+      </li>
+      <li className="font-medium text-[16px] leading-[23.17px]">
         <Link
           to="portfolio"
           smooth={true}
           duration={1000}
           onClick={handleNavClick}
         >
-          Portfolio
+          Payments
         </Link>
       </li>
-      <li className="py-2 md:py-0">
+      <li className="font-medium text-[16px] leading-[23.17px]">
         <Link to="pages" smooth={true} duration={1000} onClick={handleNavClick}>
-          Pages
+          FAQs
         </Link>
       </li>
-      <li className="py-2 md:py-0">
-        <Link
-          to="why-us"
-          smooth={true}
-          duration={1000}
-          onClick={handleNavClick}
-        >
-          Why Us
-        </Link>
-      </li>
-      <li className="py-2 md:py-0">
-        <Link
-          to="tertimonial"
-          smooth={true}
-          duration={1000}
-          onClick={handleNavClick}
-        >
-          Reviews
-        </Link>
-      </li>
-      <li className="px-6 py-3 text-sm md:text-[17px] border border-[#6D95FC] tracking-widest md:tracking-[14.5%]">
+      <li className="py-3 px-5 md:px-8 lg:px-8 md:py-3 lg:py-3 text-sm md:text-[16px] lg:text-[16px] border-2 border-[#2BB32A] text-[#2BB32A] font-bold leading-6 rounded-[64px]">
         <Link
           to="contact-us"
           smooth={true}
           duration={1000}
           onClick={handleNavClick}
         >
-          Contact Us
+          Contact
         </Link>
       </li>
-      
     </ul>
   );
 
@@ -90,10 +74,10 @@ const Navbar = () => {
       <Container>
         <div className="w-full flex items-center justify-between lg:justify-start">
           {/* Mobile Hamburger Menu */}
-          <div className="lg:hidden">
+          <div className="lg:hidden relative">
             <Hamburger toggled={isOpen} toggle={setOpen} distance="sm" />
             {isOpen && (
-              <div className="p-4 shadow-lg menu bg-[#da08a2] rounded-lg mt-2">
+              <div className="absolute z-50 p-3 shadow-lg menu bg-[#1a301a] rounded-lg mt-2">
                 {navMenu}
               </div>
             )}
@@ -102,7 +86,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="w-full flex  justify-center items-center content-between">
             <div className="flex flex-col text-center mr-[112px]">
-                <img src={Logo} alt="logo" />
+              <img src={Logo} alt="logo" />
             </div>
 
             {/* Desktop Menu */}
