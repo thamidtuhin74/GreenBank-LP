@@ -1,52 +1,60 @@
-import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa";
-import Container from "../../UI/Container/Container";
-import Logo from "../../../assets/img/logo.png"
-
+import React from 'react';
 
 const Footer = () => {
-  return (
-    <div className="pt-5  text-white">
-      <Container>
-        <div className="text-center flex flex-col items-center pt-02">
-          <img className="pb-4" src={Logo} alt="" />
-          <hr className="mx-auto pb-4 w-[87px] border-[#6D95FC]" />
-          <div className="flex md:flex flex-wrap gap-5 justify-center text-[#6D95FC] pb-4 tracking-[-2.5%]">
-            <p>Categories</p>
-            <p>About</p>
-            <p>Services</p>
-            <p>Portfolio</p>
-            <p>Pages</p>
-            <p>Support</p>
-          </div>
-          <p className="pb-10 tracking-[4%] leading-[166.5%]">
-            Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor
-            sit amet, Neque porro elit NeDque{" "}
-          </p>
-          <div className="flex gap-4 justify-center text-[#6D95FC] pb-[20px]">
-            <FaFacebook />
-            <FaInstagram />
-            <FaWhatsapp />
-            <FaLinkedin />
-            <FaTwitter />
-          </div>
-          <footer className="footer footer-center text-white p-4">
-            <aside>
-              <p>
-                Copyright © {new Date().getFullYear()} Creatic Agency All rights reserved.
-              </p>
-            </aside>
-          </footer>
+    return (
+        <div style={{ backgroundColor: '#2834303D' }} className='w-full relative md:px-0 px-3'>
+            <div className='main-container'>
+                <footer className="footer text-gray pt-10 pb-20 text-left">
+                    <aside className=' flex flex-col h-full justify-center'>
+                        <img src="/src/assets/img/logo.png" alt="" />
+                        <p className='pt-2'>
+                            Discover the power of our secure and<br/> rewarding credit cards
+                        </p>
+                    </aside>
+                    <nav>
+                        <h6 className="text-white font-bold text-[16px]">Services</h6>
+                        <a className="link link-hover">Branding</a>
+                        <a className="link link-hover">Design</a>
+                        <a className="link link-hover">Marketing</a>
+                        <a className="link link-hover">Advertisement</a>
+                    </nav>
+                    <nav>
+                        <h6 className="text-white font-bold text-[16px]">Company</h6>
+                        <a className="link link-hover">About us</a>
+                        <a className="link link-hover">Contact</a>
+                        <a className="link link-hover">Jobs</a>
+                        <a className="link link-hover">Press kit</a>
+                    </nav>
+                    <nav>
+                        <h6 className="text-white font-bold text-[16px]">Legal</h6>
+                        <a className="link link-hover">Terms of use</a>
+                        <a className="link link-hover">Privacy policy</a>
+                        <a className="link link-hover">Cookie policy</a>
+                    </nav>
+                    <nav>
+                        <h6 className="text-white font-bold text-[16px]">Legal</h6>
+                        <a className="link link-hover">Terms of use</a>
+                        <a className="link link-hover">Privacy policy</a>
+                        <a className="link link-hover">Cookie policy</a>
+                    </nav>
+                </footer>
+                <footer className="footer bg-transparent text-gray px-10 py-4 ">
+                    <aside className="grid-flow-col items-center">
+                        <p>
+                        Copyright 2023 DoraDesign All Rights Reserved
+                        </p>
+                    </aside>
+                    <nav className="md:place-self-center md:justify-self-end">
+                        <div className="grid grid-flow-col gap-4">
+                            <p>This page uses cookies. See cookies details here </p>
+                        </div>
+                    </nav>
+                </footer>
+                <img className='w-[56px] h-[56px] absolute top-0 right-[40%] blur' src="/src/assets/img/Star.png" alt="" />
+
+            </div>
         </div>
-      </Container>
-    </div>
-  );
+    );
 };
 
 export default Footer;

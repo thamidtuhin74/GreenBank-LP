@@ -1,9 +1,10 @@
 
 import React from 'react';
+import Container from '../UI/Container/Container';
 
 const Faq = () => {
     return (
-        <div className='main-container flex flex-col items-center py-[128px] relative'>
+        <div className='main-container flex flex-col items-center py-[128px] relative md:px-0 px-3'>
             <div className='max-w-[1020px] w-full'>
                 <h1 className='text-[40px] font-bold'>FAQs</h1>
                 <div className='text-left font-poppins'>
@@ -58,7 +59,7 @@ const Faq = () => {
             <img className='w-[56px] h-[56px] absolute bottom-5 left-20' src="/src/assets/img/Star.png" alt="" />
             <img className='w-[16px] h-[16px] absolute top-[60%] ' src="/src/assets/img/Star.png" alt="" />
             <img className='w-[24px] h-[24px] absolute top-60 left-[15%]' src="/src/assets/img/Star.png" alt="" />
-        </div>     
+        </div>
     );
 };
 
