@@ -1,3 +1,5 @@
+import React from "react";
+import Faq from "../../Components/FAQ/Faq";
 import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
 import Details from "./Details/Details";
@@ -14,6 +16,7 @@ const Home = () => {
       <WeOffer></WeOffer>
       <PerfectCredCard></PerfectCredCard>
       <Testimonial></Testimonial>
+      <Faq></Faq>
     </div>
   );
 };
