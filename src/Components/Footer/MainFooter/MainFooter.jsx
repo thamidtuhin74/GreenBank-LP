@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Footer = () => {
+const MainFooter = () => {
     return (
-        <div style={{ backgroundColor: '#2834303D' }} className='w-full relative md:px-0 px-3'>
+        <div style={{ backgroundColor: '#2834303d' }} className='w-full relative'>
             <div className='main-container'>
                 <footer className="footer text-gray pt-10 pb-20 text-left">
                     <aside className=' flex flex-col h-full justify-center'>
@@ -57,4 +57,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default MainFooter;
