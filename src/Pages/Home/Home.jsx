@@ -8,6 +8,10 @@ import WeOffer from "../../Components/WeOffer/WeOffer";
 import PerfectCredCard from "../../Components/PerfectCreditCard/PerfectCredCard";
 
 const Home = () => {
+<<<<<<< HEAD
+=======
+
+>>>>>>> db60169067454b4f397c81478b720c1e168d10d2
   return (
     <div>
       <Banner />
@@ -16,9 +20,16 @@ const Home = () => {
       <WeOffer></WeOffer>
       <PerfectCredCard></PerfectCredCard>
       <Testimonial></Testimonial>
+<<<<<<< HEAD
       <Faq></Faq>
     </div>
   );
+=======
+    <Faq></Faq>
+    </div>
+  );
+
+>>>>>>> db60169067454b4f397c81478b720c1e168d10d2
 };
 
 export default Home;
