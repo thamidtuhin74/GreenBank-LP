@@ -6,6 +6,7 @@ import partner4 from "../../../assets/img/partner4.png";
 import partner5 from "../../../assets/img/partner5.png";
 import partner6 from "../../../assets/img/partner6.png";
 
+
 const Category = () => {
   return (
     <Container>

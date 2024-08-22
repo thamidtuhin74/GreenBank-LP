@@ -1,10 +1,11 @@
 import { FaArrowRightLong } from "react-icons/fa6";
-import card from "../../../assets/img/credit-card-gray.png";
+// import card from "../../../assets/img/credit-card-gray.png";
 import user1 from "../../../assets/img/user1.png";
 import user2 from "../../../assets/img/user2.png";
 import user3 from "../../../assets/img/user3.png";
 import star from "../../../assets/img/Star.png";
 import Container from "../../../Components/UI/Container/Container";
+import Card from "../../../Components/UI/Card/Card";
 
 const Banner = () => {
   return (
@@ -55,12 +56,21 @@ const Banner = () => {
           </div>
         </div>
         <div className="relative order-1 md:order-2">
-          <img
+          {/* <img
             className="absolute z-20 -top-24 md:-top-0 lg:-top-0 bg-gradient-to-r from-cyan-500 to-blue-500 opacity-[50%]"
             src={card}
             alt="card"
-          />
-          <span className="absolute z-10 badge badge-primary badge-lg border-none bg-[#2BB32A] w-[220px] h-[220px] md:w-[492px] lg:w-[492px] md:h-[492px] lg:h-[492px] rounded-[100%] -top-24 md:-top-0 lg:-top-0 -right-11 md:-right-36 lg:-right-36"></span>
+          /> */}
+
+          <div className="rotate-[15deg] absolute z-40 -top-0 left-[15%]">
+            
+              <Card />
+            
+          </div>
+
+          <span className="absolute z-10 blur-[5px] bg-[#2ab32acc]  border-none   badge badge-lg w-[220px] h-[220px] md:w-[330px] md:h-[330px]  rounded-[100%] top-[60px] left-[200px]"></span>
+
+          <span className="absolute z-30 badge badge-primary badge-lg border-none bg-[#2BB32A] w-[220px] h-[220px] md:w-[492px] lg:w-[492px] md:h-[492px] lg:h-[492px] rounded-[100%] -top-24 md:-top-0 lg:-top-0 -right-11 md:-right-36 lg:-right-36"></span>
         </div>
         <span className="absolute blur-[200px] bg-[#2ab32acc] shadow-lg border-none shadow-[#e1ece1]  badge badge-lg w-[220px] h-[220px] md:w-[420px] lg:w-[420px] md:h-[350px] lg:h-[350px] rounded-[100%] -top-[40%] right-[27%]"></span>
         <img
@@ -74,17 +84,17 @@ const Banner = () => {
           alt="star"
         />
         <img
-          className="absolute border-none badge badge-lg bg-transparent w-[4%] h-[4%] -bottom-[7%] right-[18%]"
+          className="absolute border-none badge badge-lg bg-transparent w-[5%] h-[4%] -bottom-[7%] right-[18%]"
           src={star}
           alt="star"
         />
         <img
-          className="absolute border-none badge badge-lg bg-transparent w-[3%] h-[3%] -bottom-[23%] left-[3%]"
+          className="absolute border-none badge badge-lg bg-transparent w-[4%] h-[3%] -bottom-[23%] left-[3%]"
           src={star}
           alt="star"
         />
         <img
-          className="absolute border-none badge badge-lg bg-transparent w-[3%] h-[3%] -bottom-[86%] left-[25%]"
+          className="absolute border-none badge badge-lg bg-transparent w-[4%] h-[3%] -bottom-[86%] left-[25%]"
           src={star}
           alt="star"
         />
