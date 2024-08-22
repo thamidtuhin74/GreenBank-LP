@@ -6,7 +6,7 @@ import bigStar from "../../assets/img/big-Star.png";
 const PerfectCredCard = () => {
   return (
     <Container>
-      <div className="md:py-[128px] md:grid md:grid-cols-2">
+      <div className="md:pt-[128px] md:grid md:grid-cols-2">
         <div className=" md:w-[454px] md:h-[488px]">
           <div className="relative">
             <img
