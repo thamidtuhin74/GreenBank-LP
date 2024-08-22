@@ -21,7 +21,7 @@ html, body{
     height: 420px;
     background-color: #2BB32A; /* Updated background color */
     border-radius: 50%;
-    filter: blur(800px);
+    filter: blur(200px);
 }
 .cricle-gradiant{
     max-width: 420px;
