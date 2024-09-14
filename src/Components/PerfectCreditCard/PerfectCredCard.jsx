@@ -21,14 +21,14 @@ const PerfectCredCard = () => {
               alt=""
             />
             <img
-              className="absolute z-20 max-sm:top-[290px] md:top-[220px] md:left-[312px] h-[264px]"
+              className="absolute z-20 max-sm:top-[290px] md:top-[220px] md:left-[312px] h-[200px] md:h-[264px]"
               src={bigStar}
               alt=""
             />
           </div>
         </div>
         <div className="md:py-[75px] ">
-          <h1 className="text-white font-bold md:text-[40px] md:leading-[57.92px]">
+          <h1 className="text-white font-bold text-[28px] md:text-[40px] md:leading-[57.92px] pt-[500px] md:pt-0">
             Find the Perfect Credit Card for You
           </h1>
           <p className="text-[#ADB2B1] font-normal text-[16px] md:leading-[24px] py-[24px]">
@@ -38,7 +38,7 @@ const PerfectCredCard = () => {
             perfect credit card waiting for you. Unleash the possibilities and
             find the credit card that fits your unique goals and aspirations.
           </p>
-          <button className="font-medium leading-6 text-[16px] bg-[#2BB32A] py-4 px-8 border-none rounded-[64px]">
+          <button className="font-medium leading-6 text-[14px] md:text-[16px] bg-[#2BB32A] py-2 md:py-4 px-3 md:px-8 border-none rounded-lg md:rounded-[64px]">
             Learn More
           </button>
         </div>

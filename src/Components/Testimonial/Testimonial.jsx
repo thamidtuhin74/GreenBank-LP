@@ -6,7 +6,7 @@ import Container from "../UI/Container/Container";
 const Testimonial = () => {
   return (
     <Container>
-      <div className="md:flex gap-8 md:pt-[128px] pb-10">
+      <div className="flex flex-col md:flex-row gap-8 pt-14 md:pt-[128px] pb-10">
         <div className="bg-[#27322f3d] rounded-[32px] py-12 px-6">
           <p className="w-[56px] h-[56px] rounded-full bg-[#3D544D] text-center p-4">
             <img src={quatation} alt="" />
