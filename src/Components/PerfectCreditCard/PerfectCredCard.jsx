@@ -22,7 +22,7 @@ const PerfectCredCard = () => {
             />
           </div>
         </div>
-        <div className="md:py-[75px] md:w-[604px]">
+        <div className="md:py-[75px] ">
           <h1 className="text-white font-bold md:text-[40px] md:leading-[57.92px]">
             Find the Perfect Credit Card for You
           </h1>

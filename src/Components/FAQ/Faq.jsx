@@ -4,6 +4,7 @@ import Container from '../UI/Container/Container';
 
 const Faq = () => {
     return (
+        <Container>
         <div className='main-container flex flex-col items-center py-[128px] relative md:px-0 px-3'>
             <div className='max-w-[1020px] w-full'>
                 <h1 className='text-[40px] font-bold'>FAQs</h1>
@@ -60,6 +61,7 @@ const Faq = () => {
             <img className='w-[16px] h-[16px] absolute top-[60%] ' src={icon} alt="" />
             <img className='w-[24px] h-[24px] absolute top-60 left-[15%]' src={icon} alt="" />
         </div>
+        </Container>
     );
 };
 

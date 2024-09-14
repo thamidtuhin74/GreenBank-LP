@@ -1,7 +1,9 @@
 import React from 'react';
+import Container from '../../UI/Container/Container';
 
 const Footer = () => {
     return (
+        <Container>
         <div style={{ backgroundColor: '#2834303D' }} className='w-full relative md:px-0 px-3'>
             <div className='main-container'>
                 <footer className="footer text-gray pt-10 pb-20 text-left">
@@ -54,6 +56,7 @@ const Footer = () => {
 
             </div>
         </div>
+        </Container>
     );
 };
 
