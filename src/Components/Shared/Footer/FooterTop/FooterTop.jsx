@@ -4,7 +4,7 @@ const FooterTop = () => {
     return (
         <div className='w-full max-w-[1920px] mx-auto md:p-0 p-5'>
             <div className='main-container'>
-                <div className='flex flex-col flex-col-reverse md:flex-row items-center justify-between text-left relative z-1'>
+                <div className='flex flex-col md:flex-row items-center justify-between text-left relative z-1'>
                     <div className="footer-left md:max-w-[604px] w-full">
                         <h2 className="footer-top-title font-poppins text-[48px] font-bold text-white">Easy Way to manage your finances</h2>
                         <p className='text-gray mt-5 mb-8 font-regular text-[18px]'>Easy to use mobile app that support on android and ios.</p>

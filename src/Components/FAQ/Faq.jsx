@@ -1,5 +1,5 @@
 
-import React from 'react';
+import icon from '../../../src/assets/img/Star.png'
 import Container from '../UI/Container/Container';
 
 const Faq = () => {
@@ -56,9 +56,9 @@ const Faq = () => {
                     
                 </div>
             </div>
-            <img className='w-[56px] h-[56px] absolute bottom-5 left-20' src="/src/assets/img/Star.png" alt="" />
-            <img className='w-[16px] h-[16px] absolute top-[60%] ' src="/src/assets/img/Star.png" alt="" />
-            <img className='w-[24px] h-[24px] absolute top-60 left-[15%]' src="/src/assets/img/Star.png" alt="" />
+            <img className='w-[56px] h-[56px] absolute bottom-5 left-20' src={icon} alt="" />
+            <img className='w-[16px] h-[16px] absolute top-[60%] ' src={icon} alt="" />
+            <img className='w-[24px] h-[24px] absolute top-60 left-[15%]' src={icon} alt="" />
         </div>
     );
 };
