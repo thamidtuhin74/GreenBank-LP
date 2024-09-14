@@ -6,7 +6,7 @@ const WeOffer = () => {
   return (
     <Container>
       <div className="max-sm:px-3">
-        <h1 className="text-white text-center font-bold text-[25px] md:text-[40px] leading-[57.92px]">
+        <h1 className="text-white text-center font-bold text-[28px] md:text-[40px] leading-[57.92px] max-sm:pb-5">
           What do we offer?
         </h1>
         <div className="md:pt-[64px]  max-sm:flex max-sm:flex-col gap-3 md:flex  md:gap-8">
