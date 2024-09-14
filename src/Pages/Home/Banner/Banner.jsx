@@ -62,13 +62,11 @@ const Banner = () => {
             alt="card"
           /> */}
 
-          <div className="rotate-[15deg] absolute z-40 -top-0 left-[15%]">
-            
-              <Card />
-            
+          <div className="rotate-[15deg] absolute z-40 bottom-[100px] left-[40px] md:-top-0 md:left-[15%]">
+            <Card />
           </div>
 
-          <span className="absolute z-10 blur-[5px] bg-[#2ab32acc]  border-none   badge badge-lg w-[220px] h-[220px] md:w-[330px] md:h-[330px]  rounded-[100%] top-[60px] left-[200px]"></span>
+          <span className="absolute hidden md:block z-10 blur-[5px] bg-[#2ab32acc]  border-none   badge badge-lg w-[220px] h-[220px] md:w-[330px] md:h-[330px]  rounded-[100%] top-[60px] left-[200px]"></span>
 
           <span className="absolute z-30 badge badge-primary badge-lg border-none bg-[#2BB32A] w-[220px] h-[220px] md:w-[492px] lg:w-[492px] md:h-[492px] lg:h-[492px] rounded-[100%] -top-24 md:-top-0 lg:-top-0 -right-11 md:-right-36 lg:-right-36"></span>
         </div>
