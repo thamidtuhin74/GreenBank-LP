@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from '../../../../assets/img/apple-app.svg'
 import img2 from '../../../../assets/img/anroid-app.svg'
+import img3 from '../../../../assets/img/app.png'
 import Container from "../../../UI/Container/Container";
 
 const FooterTop = () => {
@@ -30,7 +31,7 @@ const FooterTop = () => {
               </div>
             </div>
             <div className="Footer-right md:pb-0 pb-5 pt-10 md:pt-0">
-              <img src="/src/assets/img/app.png" alt="" />
+              <img src={img3} alt="" />
             </div>
             <div className="cricle-gradiant absolute -top-[25%] -left-[3%] "></div>
             <div className="cricle-gradiant absolute -top-[40%] -left-[10%] "></div>
